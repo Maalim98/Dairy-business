@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>maalim farm</title>
+</head>
+<body>
+    <div class="container"> 
+
+        <div class="content1">
+            <h1>Maalims Farm</h1> 
+            <h4>total Earnings</h4>
+        </div>
+
+        <h3> Inputs</h3>
+        <p>Production per cow in every shed</p>
+            <div class="my form">
+                <span class=" text-center" id="message box">Cows in Shed 1</span>
+                <input class="shed_one" type="text" class="text-center" placeholder="0.00 Ltrs" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="my form2">
+              <span class=" text-center" id="message box2">Cows in Shed 2</span>
+              <input class="shed_one" type="text" class="text-center" placeholder="0.00 Ltrs" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="my form3">
+            <span class=" text-center" id="message box3">Cows in Shed 3</span>
+            <input class="shed_one" type="text" class="text-center" placeholder="0.00 Ltrs" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="my form4">
+          <span class=" text-center" id="message box4">Cows in Shed 1</span>
+          <input class="shed_one" type="text" class="text-center" placeholder="0.00 Ltrs" aria-describedby="inputGroup-sizing-default">
+      </div>
+        
+
+          <p>Buying rates and days</p>
+          <div class="my mini form">
+            <div class="form-mini">
+                <span class="text-center" id="message box5">Buying Rate</span>
+                <input id="buying_rate" type="text" class=" text-center" placeholder="0.00" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="form 3">
+                <span class="text centre" id="message box 6">Duration in days</span>
+                <input id="time" type="text" class=" text-center "placeholder="0.00 days" aria-describedby="inputGroup-sizing-default">
+            </div>
+          </div>
+          
+          <button class="btn" type="submit" onclick="totalProduction()">submit</button>
+
+
+          <h2> Daily Earnings</h2>
+          <table class="table1">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Shed </th>
+                <th>Total daily Earnings </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td id="shed_A"></td>
+                <td>0.00</td>
+              </tr>
+              <tr>
+                <th >2</th>
+                <td></td>
+                <td>0.00</td>
+              </tr>
+              <tr>
+                <th>3</th>
+                <td></td>
+                <td>0.00</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td id="shed_d"></td>
+                <td id="shed_d_prod">0.00</td>
+              </tr>
+            </tbody>
+          </table>
+
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
