@@ -19,6 +19,6 @@ To access this project on your local files, you can clone it using these steps
 1. JavaScript
 1. Git
 ### Live Site
-View [live]()
+View [live]() https://maalim98.github.io/Dairy-business/
 ### Licence
-This project is under the  [MIT](LICENSE) licence
+This project is under the  [MIT](license) licence
